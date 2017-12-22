@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+<link rel="icon" href="https://ep01.epimg.net/favicon.png"
+	type="image/png">
+	
+<style type="text/css">
+div{
+	margin: 3px;
+	padding: 3px;
+}
+#top{
+	border: 2px solid orange;
+}
+#top, #might{
+	display:flex;
+}
+#might{
+	border: 2px solid blue
+}
+#formulario{
+	border: 2px solid red;
+	width: 70%
+}
+form {
+	display: table;
+	margin: 0 auto;
+}
+form div {
+	display: table-row;
+}
+.aligned {
+	display: table-cell;
+	margin-bottom: 10px;
+}
+form label.aligned {
+	padding-right: 5%;
+	text-align: right;
+}
+#cierreForm{
+	text-align: center;
+}
+#media{
+	border: 2px solid yellow;
+}
+#imagen{
+	height:100px;
+}
+#bottom{
+	height:200px;
+	border: 2px solid green;
+}
+input { font-family: 'FontAwesome'; } /* This is for the placeholder */
+</style>
+<link rel="stylesheet" href="font-awesome/css/font-awesome.min.css">
+</head>
+<body>
+
+<div id="top">
+	<img id="imagen" src="img/imagen.png"></img>
+	<h2>HOTEL BLABLABLA</h2>
+</div>
+
+<div id="might">
+	<div id="formulario">
+		<h2>Formulario reserva</h2>
+		<form>
+			<div>
+				<!-- <label for="email" class="aligned"><i class="icon-envelope-alt"></i></label>
+				<input type="email" name="email" id="email" class="aligned" placeholder="e-mail"> -->
+				<p class="wrapper"><input placeholder="&#61447; e-mail"></p>
+			</div>
+			<div>
+				<p class="wrapper"><input placeholder="&#xf0c0; Número de personas"></p>
+			</div>
+			<div>
+				<p class="wrapper"><input placeholder="&#xf073; Fecha entrada"></p>
+			</div>
+			<div>
+				<p class="wrapper"><input placeholder="&#xf073; Fecha salida"></p>
+			</div>
+			<div>
+				<div class="aligned">
+					<label for="noches"><i class="icon-moon"></i></label>
+					<input type="range" name="noches" id="noches" max="5" placeholder="Número de noches">
+				</div>
+			</div>
+			<div>
+				<div id="cierreForm" class="aligned">
+					<input type="checkbox" name="condiciones" id="condiciones">
+					<label for="condiciones">Acepto las condiciones</label><br>
+				</div>
+			</div>
+			<div class="aligned" style="padding-left:15%;">
+				<input type="submit" value="Enviar">
+			</div>
+			
+		</form>
+	</div>
+		<div id="media">
+		<iframe 
+				src="https://www.youtube.com/embed/dQw4w9WgXcQ" frameborder="0"
+				gesture="media" allow="encrypted-media" allowfullscreen></iframe><br>
+		<img width="200px" src="imagenhotel.jpg">
+		</div>
+	</div>
+	
+	<div id="bottom">
+	<iframe
+				src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3037.6226309469707!2d-3.7059786846040526!3d40.4172099793651!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd42287e1196afdd%3A0xda1bc45aea31c957!2sPlaza+Puerta+del+Sol%2C+11%2C+28013+Madrid!5e0!3m2!1ses!2ses!4v1513331571212"
+				width="100%" height="100%" frameborder="0" style="border: 0"
+				allowfullscreen></iframe>
+	</div>
+				
+</body>
+</html>
